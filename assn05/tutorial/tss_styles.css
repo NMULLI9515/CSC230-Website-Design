@@ -84,6 +84,8 @@ nav {
 
 nav > ul {
    line-height: 2em;
+   list-style-type: none;
+   padding-left: 5px;
 }
 
 /* List Styles */
