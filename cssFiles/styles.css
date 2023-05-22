@@ -11,9 +11,13 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    align-content: center;
+}
+
 /* General Styles */
 
-* {
+html {
     color: rgb(15, 185, 0);
     background-color: rgb(24, 25, 30);
  
@@ -23,13 +27,17 @@ html {
 ol {
     /* list-style-image: url(https://1drv.ms/i/s!Ar6qxgqxbHKipkkoN9C8G6b4pnrB?e=CPDGaZ); */
 
+    
+
     outline-style: solid;
-    outline-color: lightslategrey;
+    outline-color: rgb(190, 190, 190);
     outline-width: 6px;
     border-radius: 5px;
+    border-width: 50%;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 10px;
+    padding-right: -30px;
+    margin-right: 900px;
 }
 
 ol > li {
@@ -55,3 +63,20 @@ aside > p#lastP {
     padding-bottom: 40px;
 }
 
+/* Backgrounds */
+
+section > h2 {
+    color: rgb(0, 182, 0);
+    background-color: rgb(58, 58, 58);
+    margin-right: 900px;
+    margin-bottom: -20px;
+    padding-left: 20px;
+}
+
+section > h3 {
+    color: rgb(0, 80, 0);
+    background-color: rgb(110, 110, 110);
+    margin-right: 900px;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
