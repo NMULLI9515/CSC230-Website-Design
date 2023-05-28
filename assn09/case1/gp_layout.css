@@ -45,7 +45,15 @@ article {
 */
 
 @media screen and (max-width: 480px) {
-   
+
+   img.panel {
+      width: 100%;
+   }
+
+   nav.horizontal {
+      order: 99;
+   }
+
 }
 
 
