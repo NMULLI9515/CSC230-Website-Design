@@ -55,3 +55,30 @@ header h3 {
 
    background-color: purple;
 }
+
+h1 {
+   font-family: Arial;
+   font-size: 22pt;
+   text-align: left;
+   letter-spacing: 2px;
+
+   margin: 0px;
+
+   padding: 15px 0px 0px 15px;
+
+   background-color: darkblue;
+}
+
+h3 {
+   font-family: Arial;
+   font-size: 16pt;
+   text-align: left;
+
+   background-color: blue;
+}
+
+p {
+   margin: 15px;
+
+   padding: 15px;
+}
