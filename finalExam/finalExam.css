@@ -101,6 +101,16 @@ table {
    margin-left: 30px;
 }
 
+tr:nth-child(even) {
+   background-color: lightpink;
+}
+
+tr:first-child {
+   background-color: blueviolet;
+   text-align: center;
+   font-weight: bold;
+}
+
 nav {
    background-color: lightgrey;
    color: black;
@@ -111,4 +121,11 @@ nav {
    padding-top: 0px;
 
    width: 100%;
+}
+
+section {
+   background-color: rgb(0, 120, 255);
+
+   width: 75%;
+   padding: 15px;
 }
