@@ -111,6 +111,10 @@ tr:first-child {
    font-weight: bold;
 }
 
+tr#last {
+   
+}
+
 nav {
    background-color: lightgrey;
    color: black;
